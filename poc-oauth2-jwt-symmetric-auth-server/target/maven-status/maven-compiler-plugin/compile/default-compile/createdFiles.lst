@@ -1,0 +1,3 @@
+com/yourproject/poc/authserver/WebSecurityConfig.class
+com/yourproject/poc/authserver/AuthorizationServerConfig.class
+com/yourproject/poc/authserver/App.class

@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+security:
+  oauth2:
+    client:
+      client-id: fooClient
+      client-secret: fooSecret
+      scope: openid
+      access-token-validity-seconds: 100
+      refresh-token-validity-seconds: 150
+      authorized-grant-types:
+      - password
+      - authorization_code
+      - refresh_token
+
+logging:
+  level:
+    org.springframework.security: DEBUG

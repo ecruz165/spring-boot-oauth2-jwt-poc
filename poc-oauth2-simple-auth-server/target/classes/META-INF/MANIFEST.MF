@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Edwin
+Build-Jdk: 10.0.2
+Implementation-Title: poc-oauth2-simple-auth-server
+Implementation-Version: 0.0.1
+Implementation-Vendor-Id: com.yourproject.poc
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/poc-oauth2--basic-examples/poc-oauth2-simple-auth-s
+ erver
+Created-By: Maven Integration for Eclipse
+

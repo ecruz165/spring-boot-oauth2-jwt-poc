@@ -1,0 +1,22 @@
+# Property Source does not support list
+# https://jira.spring.io/browse/SPR-13912
+integration: 
+  java-home: "/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin/java"
+  project-base-path: "/Users/Edwin/Development/Workspaces/workspace-sts/poc-oauth2--basic-examples"
+  tests: 
+    - name: "AppIntegrationTestsForSimpleServers"
+      servers: 
+        - name: "auth-server"
+          path: "/poc-oauth2-simple-resource-server/target/"
+          artifact: "poc-oauth2-simple-resource-server"
+        - name: "resource-server"
+          path: "/poc-oauth2-simple-resource-server/target/"
+          artifact: "poc-oauth2-simple-resource-server"
+    - name: "AppIntegrationTestsForJwtSymetricServers"
+      servers: 
+        - name: "auth-server"
+          path: "/poc-oauth2-jwt-symmetric-auth-server/target/"
+          artifact: "poc-oauth2-jwt-symmetric-auth-server"
+        - name: "resource-server"
+          path: "/poc-oauth2-jwt-symmetric-auth-server/target/"
+          artifact: "poc-oauth2-jwt-symmetric-auth-server"
